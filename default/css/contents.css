@@ -5,11 +5,12 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("banner.css");
+@import url("bootstrap-grid.css");
 
 /*------------------------ナビゲーション------------------------*/
 
 @import url("nav.css");
-@import url("navres.css");
+/* @import url("navres.css"); */
 
 /*------------------------ページ構成------------------------*/
 

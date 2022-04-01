@@ -1,113 +1,112 @@
 ul#textsize {
-    width: auto !important;
-    list-style: none;
-    margin: 2px 0 0 0;
-    float: right;
+  width: auto !important;
+  list-style: none;
+  margin: 2px 0 0 0;
+  float: right;
 }
 
 .ie9 ul#textsize {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 @media all and (-ms-high-contrast: none) {
-    ul#textsize {
-        font-size: 0.8em;
-    }
+  ul#textsize {
+    font-size: 0.8em;
+  }
 }
 
 ul#textsize li {
-    display: inline-block;
-/ display: inline;
-/ zoom: 1;
-    vertical-align: middle;
-    height: 30px;
-    float: left;
+  display: inline-block;
+  /display: inline;
+  /zoom: 1;
+  vertical-align: middle;
+  height: 30px;
+  float: left;
 }
 
 ul#textsize p {
-    font-size: 0.8em;
-    float: left;
-    margin: 6px 10px 0 0;
+  font-size: 0.8em;
+  float: left;
+  margin: 6px 10px 0 0;
 }
 body#spring ul#textsize li a,
 body#summer ul#textsize li a,
 body#autumn ul#textsize li a,
-body#winter ul#textsize li a{
-	font-size: 0.8em;
-	border-radius: 3px;
-	margin: 0 1px;
-	padding: 3px 8px;
-	border: 1px solid #ddd;
-	display: block;
-	text-decoration: none;
-	vertical-align: middle;
+body#winter ul#textsize li a {
+  font-size: 0.8em;
+  border-radius: 3px;
+  margin: 0 1px;
+  padding: 3px 8px;
+  border: 1px solid #ddd;
+  display: block;
+  text-decoration: none;
+  vertical-align: middle;
 }
 body#spring ul#textsize li a {
-	background-color: #fff;
-    color: #912264;
+  background-color: #fff;
+  color: #912264;
 }
 body#summer ul#textsize li a {
- 	background-color: #fff;
-   color: #CC2B2B;
+  background-color: #fff;
+  color: #cc2b2b;
 }
 body#autumn ul#textsize li a {
-	background-color: #fff;
-    color: #D75730;
+  background-color: #fff;
+  color: #d75730;
 }
 body#winter ul#textsize li a {
-	background-color: #BE90D7;
-    color: #FFF;
+  background-color: #be90d7;
+  color: #fff;
 }
-
 
 body#spring ul#textsize li a:hover,
 body#summer ul#textsize li a:hover,
 body#autumn ul#textsize li a:hover,
-body#winter ul#textsize li a:hover{
-	border-radius: 3px;
-	padding: 3px 8px;
-	border: 1px solid #ddd;
-	display: block;
-	text-decoration: none;
+body#winter ul#textsize li a:hover {
+  border-radius: 3px;
+  padding: 3px 8px;
+  border: 1px solid #ddd;
+  display: block;
+  text-decoration: none;
 }
 body#spring ul#textsize li a:hover {
-	background-color: #ccc;
-    color: #912264;
+  background-color: #ccc;
+  color: #912264;
 }
 body#summer ul#textsize li a:hover {
-	background-color: #ccc;
-    color: #CC2B2B;
+  background-color: #ccc;
+  color: #cc2b2b;
 }
 body#autumn ul#textsize li a:hover {
-	background-color: #ccc;
-    color: #D75730;
+  background-color: #ccc;
+  color: #d75730;
 }
 body#winter ul#textsize li a:hover {
-	background-color: #875AA4;
-    color: #FFF;
+  background-color: #875aa4;
+  color: #fff;
 }
 /*Safari*/
 .mac.safari ul#textsize li a,
 .mac.safari ul#textsize li a:hover {
-    padding: 1px 6px !important;
+  padding: 1px 6px !important;
 }
 
 .f1 {
-    font-size: 80%
+  font-size: 80%;
 }
 
 .f2 {
-    font-size: 100%
+  font-size: 100%;
 }
 
 .f3 {
-    font-size: 130%
+  font-size: 130%;
 }
 
 li a.f1,
 li a.f2,
 li a.f3 {
-    font-size: 100%
+  font-size: 100%;
 }
 
 /*------------------------------------------------------------------------
@@ -115,27 +114,25 @@ li a.f3 {
 ------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1140px) {
+  ul#textsize {
+    width: auto !important;
+    list-style: none;
+    margin: 3px 0 0 10px;
+  }
 
-    ul#textsize {
-        width: auto !important;
-        list-style: none;
-        margin: 3px 0 0 10px;
-    }
-
-    ul#textsize p {
-        display: none;
-    }
-
+  ul#textsize p {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 993px) {
-    ul#textsize {
-        margin: 8px 5px 0 10px;
-    }
+  ul#textsize {
+    margin: 8px 5px 0 10px;
+  }
 }
 
 @media screen and (max-width: 1070px) {
-    ul#textsize p {
-        display: none;
-    }
+  ul#textsize p {
+    display: none;
+  }
 }

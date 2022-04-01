@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <HtmlHeaderSection xmlns:v3re="http://www.v3leisure.com/schemas/cabs/rendering">
 
-<title>Booking Page | Nara</title>
+<title>AKO MAG - 赤穂マガジン | 観光 移住 グルメ物産のオススメ情報を発信</title>
 
 <meta charset='utf-8'/>
 
-<link rel="stylesheet" href='../branding/NaratabiA/default/css/contents.css'/>
-<link rel="stylesheet" href='../branding/NaratabiA/default/css/all.css'/>
+<link rel="stylesheet" href='../branding/ako_mag/default/css/contents.css'/>
+<link rel="stylesheet" href='../branding/ako_mag/default/css/all.css'/>
 
-<link rel='icon' type='image/png' href='../branding/NaratabiA/favicon.ico'/>
-<link rel='stylesheet' href='../branding/NaratabiA/fonts/style.css'/>
+<link rel='icon' type='image/png' href='../branding/ako_mag/favicon.ico'/>
 
-
-<link rel="stylesheet" type="text/css" href="../branding/NaratabiA/styles/overrides.css"/>
+<link rel="stylesheet" type="text/css" href="https://ako.reforsindo.com/CABS/styles/overrides.css"/>
+<script src="https://ako.reforsindo.com/CABS/js/script.js"></script>
   
 <v3re:Render Page="All">
  <![CDATA[

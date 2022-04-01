@@ -2,74 +2,44 @@
 <BodyFooterSection xmlns:v3re="http://www.v3leisure.com/schemas/cabs/rendering">
 
 <footer>
-    <div>
-        <div class="wrapper clearfix" id="directorynav">
-            <div class="menulist">
-                <h3 class="mds_link"><a class="LT-14" href="http://yamatoji.nara-kankou.or.jp/welcome/">ようこそ奈良へ</a></h3>
-                <h3 class="mds_link"><a class="LT-13" href="http://yamatoji.nara-kankou.or.jp/access/">奈良へのアクセス</a></h3>
-                <h3 class="mds_link"><a class="LT-16" href="http://yamatoji.nara-kankou.or.jp/015guidebook_indivudual/">観光ガイドブック</a></h3>
-                <h3 class="mds_link"><a class="LT-34" href="http://yamatoji.nara-kankou.or.jp/024guidebook_business/?keyword=ml1n84yfrj">修学旅行ガイドブック</a></h3>
-                <h3 class="mds_link"><a class="LT-17" href="http://yamatoji.nara-kankou.or.jp/app/">奈良県観光公式アプリ</a></h3>
-                <h3 class="mds_link"><a class="LT-18" href="http://fanclub.nara-kankou.or.jp/pages/yamatoji-cal/" target="_blank">奈良大和路カレンダー</a></h3>
-            </div>
-            <div class="menulist">
-                <h3 class="mds_link"><a class="LT-6" href="http://yamatoji.nara-kankou.or.jp/001shaji/">神社・仏閣</a></h3>
-                <h3 class="mds_link"><a class="LT-7" href="http://yamatoji.nara-kankou.or.jp/002kanko/">観光</a></h3>
-                <h3 class="mds_link"><a class="LT-8" href="http://yamatoji.nara-kankou.or.jp/003events/">イベント</a></h3>
-                <h3 class="mds_link"><a class="LT-9" href="http://yamatoji.nara-kankou.or.jp/023flower_spot/">花</a></h3>
-                <h3 class="mds_link"><a class="LT-10" href="http://yamatoji.nara-kankou.or.jp/006course/">モデルコース</a></h3>
-                <h3 class="mds_link"><a class="LT-11" href="http://yamatoji.nara-kankou.or.jp/004shop/">グルメ・お土産</a></h3>
-                <h3 class="mds_link"><a class="LT-12" href="http://yamatoji.nara-kankou.or.jp/005onsen-yado/">温泉・宿泊</a></h3>
-            </div>
-            <div class="menulist">
-                <h3 class="mds_link"><a class="LT-19" href="http://yamatoji.nara-kankou.or.jp/topics/">お知らせ</a></h3>
-                <h3 class="mds_link"><a class="LT-1" href="http://yamatoji.nara-kankou.or.jp/business/">法人の方へ</a></h3>
-                <ul class="direct_link">
-                    <li><a class="LT-20" href="http://yamatoji.nara-kankou.or.jp/018img_delivery_user/">ストックフォトライブラリー</a></li>
-                    <li><a class="LT-21" href="http://yamatoji.nara-kankou.or.jp/019film_c-nara/">フィルムコミッション</a></li>
-                    <li><a class="LT-22" href="http://yamatoji.nara-kankou.or.jp/020movie/">奈良にゆかりの映画情報</a></li>
-                </ul>
-            </div>
-            <div class="menulist">
-                <h3 class="mds_link"><a class="LT-23" href="javascript:void(0);" style="cursor: default;">おすすめリンク</a></h3>
-                <ul class="direct_link">
-                    <li><a class="LT-24" href="http://yamatoji.nara-kankou.or.jp/008world/">奈良大和路の世界遺産</a></li>
-                    <li><a class="LT-25" href="http://yamatoji.nara-kankou.or.jp/season/">四季のおすすめスポット</a></li>
-                    <li><a class="LT-26" href="http://yamatoji.nara-kankou.or.jp/014toiawase/">観光についてのお問合わせ先</a></li>
-                    <li><a class="LT-27" href="http://yamatoji.nara-kankou.or.jp/013kouyo/">奈良大和路からの紅葉だより</a></li>
-                    <li><a class="LT-28" href="http://yamatoji.nara-kankou.or.jp/012sakura/">奈良大和路からの桜だより</a></li>
-                    <li><a class="LT-29" href="http://yamatoji.nara-kankou.or.jp/011wedding/">あをによし奈良　和婚</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="wrapper">
-            <aside id="bnr">
-                <ul class="clearfix">
-                    <li>
-                        <a href="http://fanclub.nara-kankou.or.jp/" target="_blank">
-                            <img src="http://yamatoji.nara-kankou.or.jp/img/bnr/bnr_FC_2021.jpg" alt="奈良ファン倶楽部"/>
+    <div class="container footer">
+        <div class="row">
+            <div class="col-8 col-sm-auto">
+                <div class="footerLogo">
+                    <img src='./images/logo.svg' class="logo" alt="AKO MAG." />
+                    <div class="mt-4 f-11px">イイかんじな赤穂､ハッシーン!</div>
+                    <div class="mt-4 text-end f-11px">__ 赤穂マガジン</div>
+                </div>
+                <div class="socialShare">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <p class="mb-0 me-2 share-text">SHARE</p>
+                        <a href="#" class="socialIcon">
+                            <img src="./images/icon-twitter.svg" alt="Twitter" />
                         </a>
-                    </li>
-                    <li>
-                        <a href="http://yamatoji.nara-kankou.or.jp/app/">
-                            <img src="http://yamatoji.nara-kankou.or.jp/img/bnr/bnr_app.jpg" alt="奈良県観光公式アプリ" style="opacity: 1;"/>
+                        <a href="#" class="socialIcon">
+                            <img src="./images/icon-facebook.svg" alt="Facebook" />
                         </a>
-                    </li>
-                </ul>
-            </aside>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomFooter col-12 col-sm-5 col-md-auto">
+                <div class="position-relative">
+                    <a href="#">
+                        <div class="position-absolute topRight">
+                            <span>あこう魅力発信基地が運営🙆‍♂️🙆‍♀️</span>
+                            <p>
+                                わたしたち.
+                                <img src="./images/icon-angle-right.svg" alt="" />
+                            </p>
+                        </div>
+                    </a>
+                    <picture class="footerImage">
+                        <img src='./images/footer-image.webp' alt="footer" />
+                    </picture>
+                </div>
+            </div>
         </div>
-        <ul class="linklist">
-            <li><a class="LT-30" href="http://yamatoji.nara-kankou.or.jp/sitemap.html">サイトマップ</a></li>
-            <li><a class="LT-31" href="http://yamatoji.nara-kankou.or.jp/privacy.html">サイトポリシー</a></li>
-            <li><a class="LT-32" href="http://yamatoji.nara-kankou.or.jp/link_banner.html">リンクについて</a></li>
-            <li><a class="LT-33" href="http://www.nara-kankou.or.jp/" target="_blank">一般財団法人 奈良県ビジターズビューロー</a></li>
-        </ul>
-        <div id="sitelogo_footer">
-            <a href="http://www.nara-kankou.or.jp/" target="_blank">
-                <img src="http://yamatoji.nara-kankou.or.jp/img/common/sitelogo.png" alt="一般財団法人 奈良県ビジターズビューロー"/>
-            </a>
-            <p>(C) Nara visitors Bureau, All Rights Reserved.</p>
-        </div>
+        <div class="copyright">© 一般社団法人あこう魅力発信基地</div>
     </div>
 </footer>
 

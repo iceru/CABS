@@ -244,12 +244,10 @@ const languages = [
   // the translation process
   setTimeout(() => {
     translatePage();
-    //override google search form
-    overrideGoogleSearch();
   }, 50);
 
   //2. Do some tweaks
-  // prepareThePage();
+  prepareThePage();
 
   //3. Override all back button
   overrideBackButton();
@@ -260,26 +258,9 @@ const languages = [
   //5. set up campaign image if exl_acp is included in the url
   setUpCampaignImage();
 
-  function overrideGoogleSearch() {
-    const googleForms = document.querySelectorAll(
-      ".gsc-search-box.gsc-search-box-tools"
-    );
-
-    const replaceBehavior = (form) => {
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        document.location.href = `http://yamatoji.nara-kankou.or.jp/search_results/index.html?q=${e.target[0].value}`;
-      });
-    };
-
-    for (let i = 0; 1 <= googleForms.length - 1; i++) {
-      replaceBehavior(googleForms[i]);
-    }
-  }
-
   function prepareThePage() {
-    document.body.id = getCurrentSeason();
-    document.title = "Official Nara Travel Guide";
+    document.title =
+      "AKO MAG - 赤穂マガジン | 観光 移住 グルメ物産のオススメ情報を発信";
 
     setTimeout(() => {
       showTabsBasedOnDistributor();
@@ -319,23 +300,6 @@ const languages = [
     if (!results[2]) return "";
 
     return decodeURIComponent(results[2].replace(/\+/g, " "));
-  }
-
-  function getCurrentSeason() {
-    let seasons = [];
-    seasons[11] = seasons[0] = seasons[1] = "winter";
-    seasons[2] = seasons[3] = seasons[4] = "spring";
-    seasons[5] = seasons[6] = seasons[7] = "summer";
-    seasons[8] = seasons[9] = seasons[10] = "autumn";
-
-    const currentMonthInNumber = new Date().getMonth();
-    const seasonFromUrl = getParameterByName("season") || "xx";
-
-    if (seasons.hasOwnProperty(seasonFromUrl)) {
-      return seasons[seasonFromUrl];
-    } else {
-      return seasons[currentMonthInNumber];
-    }
   }
 
   function translatePage() {
@@ -447,53 +411,6 @@ const languages = [
   }
 
   function isLandingPage() {
-    return (
-      document.location.host === "hadi.txi.co.id" ||
-      document.location.host === "yamatoji.nara-kankou.or.jp"
-    );
+    return document.location.host === "book.ako-mag.jp";
   }
-
-  // Visit Nara Nav Logic
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 0) {
-      $(".header_small").addClass("skin_show");
-      $(".header_large").addClass("skin_sidenav");
-    } else {
-      $(".header_large").removeClass("skin_sidenav");
-      $(".header_large").removeClass("skin_sidenav_in");
-      $(".header_small").removeClass("skin_show");
-    }
-  });
-
-  $(document).ready(function () {
-    $(".js_headersearch_trigger").click(function () {
-      $(".header_large").addClass("skin_search");
-      $(".header_searchbox_input").attr("placeholder", "");
-    });
-
-    $(".js_headersearch_close").click(function (e) {
-      e.preventDefault();
-      $(".header_large").removeClass("skin_search");
-      $(".header_searchbox_input").attr(
-        "placeholder",
-        "Search the Nara directory here"
-      );
-    });
-
-    $(".js_headermenu_trigger").click(function (e) {
-      e.preventDefault();
-      e.stopPropagation();
-      $(".header_large").addClass("skin_sidenav_in");
-      $(body).addClass("skin_body_sidenav_in");
-    });
-
-    $("body,html").click(function (e) {
-      var container = $(".header_menu_small");
-      var gnav = $(".gnav.trans_trf");
-
-      if (!gnav.is(e.target) && gnav.has(e.target).length === 0) {
-        $(".header_large").removeClass("skin_sidenav_in");
-      }
-    });
-  });
 })();

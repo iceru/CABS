@@ -2,99 +2,115 @@
 <BodyHeaderSection xmlns:v3re="http://www.v3leisure.com/schemas/cabs/rendering">
  
 <header class="clearfix" id="header">
-    <div>
-        <div class="wrapper clearfix">
-            <aside class="clearfix" id="hlink_contact">
-                <ul>
-                    <li class="bizbtn"><a class="LT-1" href="/business/">法人の方へ</a></li>
-                    <li class="bizbtn" style='font-family: "Times New Roman"'>
-                        <a href="https://www.visitnara.jp/" target="_blank" onclick="ga('send', 'event', '外国語サイトボタン', 'PC', 'English');">
-                            English
-                        </a>
-                    </li>
-                    <li class="searchbox">
-                        <div id="googleserch">
-                            <div id="___gcse_0">
-                                <div class="gsc-control-searchbox-only gsc-control-searchbox-only-ja" dir="ltr">
-                                    <form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8">
-                                        <table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody>
-                                        <tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1">
-                                            <table cellspacing="0" cellpadding="0" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody>
-                                            <tr><td id="gs_tti50" class="gsib_a">
-                                                <input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="検索" id="gsc-i-id1" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; background: url(&quot;https://www.google.com/cse/static/images/1x/ja/branding.png&quot;) left center no-repeat rgb(255, 255, 255); outline: none;"/></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="検索ボックスをクリア" role="button" style="display: none;">
-                                                <span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a>
-                                            </div></td></tr></tbody></table></div></td><td class="gsc-search-button">
-                                            <button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13">
-                                                <title>検索</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg>
-                                            </button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="結果をクリア"></div></td>
-                                        </tr></tbody></table>
-                                    </form></div>
+    <div class="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="navLeft col-9 col-sm-5 col-md-auto">
+                    <div class="leftTop">
+                        <div class="position-sticky">
+                            <img src='./images/logo.svg' class="logo" alt="AKO MAG." />
+                            <div class="row items g-0 mt-2 mt-md-3 ">
+                                <div class="col itemLink">
+                                    <a href="#">いこう.</a>
+                                </div>
+                                <div class="col itemLink gray">かおう.
+                                </div>
+                                <div class="col itemLink">
+                                    <a href="#">すもう.</a>
+                                </div>
+                                <div class="col itemLink gray">お便り.
+                                </div>
+                                <div class="col itemLink">
+                                    <a href="https://ako-mag.jp/about/">わたしたち.</a>
+                                </div>
                             </div>
                         </div>
-                    </li>
-                    <li class="store">
-                        <a href="https://yamatoji.nara-kankou.or.jp/Nara/"
-                           class="LT-39" onclick="ga('send', 'event', 'ヘッダーメニュー', 'TXJ連携', '予約・購入ページはこちら(PC)');">オンラインストア</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="textbox">
-                        <ul id="textsize">
-                            <p class="LT-2">文字サイズ</p>
-                            <li><a href="javascript:void(0)" data-mode="f1" class="textsize LT-3">小</a></li>
-                            <li><a href="javascript:void(0)" data-mode="f2" class="textsize LT-4">中</a></li>
-                            <li><a href="javascript:void(0)" data-mode="f3" class="textsize LT-5">大</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </aside>
-            <h1><a href="https://yamatoji.nara-kankou.or.jp/">奈良県観光[公式サイト] あをによし なら旅ネット</a></h1>
-        </div>
-        <nav>
-            <div class="navbar navbar-fixed-top">
-                <div class="navbar-inner">
-                    <button type="button" class="btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="txt">メニュー</span>
-                    </button>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="temples"><a class="LT-6" href="https://yamatoji.nara-kankou.or.jp/001shaji/">神社・仏閣</a></li>
-                            <li class="spot"><a class="LT-7" href="https://yamatoji.nara-kankou.or.jp/002kanko/">観光</a></li>
-                            <li class="event"><a class="LT-8" href="https://yamatoji.nara-kankou.or.jp/003events/">イベント・体験</a></li>
-                            <li class="flower"><a class="LT-9" href="https://yamatoji.nara-kankou.or.jp/023flower_spot/">花</a></li>
-                            <li class="modelcourse"><a class="LT-10" href="https://yamatoji.nara-kankou.or.jp/006course/">モデルコース</a></li>
-                            <li class="gourmet"><a class="LT-11" href="https://yamatoji.nara-kankou.or.jp/004shop/">グルメ・買う</a></li>
-                            <li class="stay"><a class="LT-12" href="https://yamatoji.nara-kankou.or.jp/005onsen-yado/">温泉・宿泊</a></li>
-                            <li class="access"><a class="LT-13" href="https://yamatoji.nara-kankou.or.jp/access/">奈良へのアクセス</a></li>
-                            <li class="header_link"><a class="LT-1" href="https://yamatoji.nara-kankou.or.jp/business/">法人の方へ</a></li>
-                            <li class="header_link"><a class='button-lang'>English</a></li>
-                            <li class="header_link" id="googleserch_sp">
-                                <div id="___gcse_0">
-                                    <div class="gsc-control-searchbox-only gsc-control-searchbox-only-ja" dir="ltr">
-                                        <form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8">
-                                            <table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody>
-                                            <tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1">
-                                                <table cellspacing="0" cellpadding="0" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody>
-                                                <tr><td id="gs_tti50" class="gsib_a">
-                                                    <input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="検索" id="gsc-i-id1" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; background: url(&quot;https://www.google.com/cse/static/images/1x/ja/branding.png&quot;) left center no-repeat rgb(255, 255, 255); outline: none;"/></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="検索ボックスをクリア" role="button" style="display: none;">
-                                                    <span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a>
-                                                </div></td></tr></tbody></table></div></td><td class="gsc-search-button">
-                                                <button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13">
-                                                    <title>検索</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg>
-                                                </button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="結果をクリア"></div></td>
-                                            </tr></tbody></table>
-                                        </form></div>
+                    </div>
+                    <div class="mt-3 mt-lg-4 left-desc">
+                        温泉やスイーツといったカルチャーと塩田や赤穂浪士といった伝統が溶け合った｢新しい赤穂｣が､今注目を浴びています｡
+                    </div>
+                    <div class="mt-3 mt-lg-4 left-desc">
+                        この溢れる｢赤穂｣の魅力を､｢観光｣｢物産｣｢移住｣のカテゴリで発信｡あなたにとってイイ感じの赤穂､見つけてください♪
+                    </div>
+                    <div class="text-end mt-3 mt-md-5 left-desc">赤穂マガジン.</div>
+                </div>
+                <div class="navRight col-9 col-sm-5 col-md-auto">
+                    <div class="row align-items-end ">
+                        <dic class="col-7 col-md-auto">
+                            <div class="textSkew">冬のイチオシ</div>
+                            <div class="navImages">
+                                <div class="topRight">
+                                    <h1>
+                                        <span>赤穂の冬は､ </span> <br /> 牡蠣小屋と温泉♨️
+                                    </h1>
+                                    <p class="mt-2">
+                                        瀬戸内海が育む牡蠣と <br /> 絶景温泉を堪能
+                                    </p>
                                 </div>
-                            </li>
-                        </ul>
+                                <picture class="image">
+                                    <source srcset='./images/nav-image-lg.webp' media="(min-width: 897px)" />
+                                    <img class="w-100 h-100 of-cover" src='./images/nav-image.webp' alt="牡蠣小屋と温泉" />
+                                </picture>
+                            </div>
+                        </dic>
+                        <div class="col mt-3 mt-md-0 rightLinks">
+                            <div class="row">
+                                <div class="col-5 col-sm-12">
+                                    <picture class="image2">
+                                        <img class="of-cover" src='./images/nav-image-2.webp' alt="牡蠣小屋と温泉" />
+                                    </picture>
+                                </div>
+                                <div class="col-7 col-sm-12 textDesc d-flex flex-column">
+                                    <div class="d-inline-block mt-2 mt-md-4">
+                                        ｢夕日眺めながらの牡蠣小屋｣
+                                    </div>
+                                    <div class="text-end d-inline-block mt-2 mt-md-4">
+                                        ｢牡蠣汁...ジュワあつあつ｣
+                                    </div>
+                                    <div class="d-inline-block mt-2 mt-md-4">
+                                        ｢贅沢な心地よ...｣
+                                    </div>
+                                    <div class="text-end d-inline-block mt-2 mt-md-4">
+                                        ｢うむ...良きかな赤穂｣
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="dashed" />
+                            <div class="row justify-content-between">
+                                <div class="col-6 col-md-12">
+                                    <div class="row align-items-center flex-nowrap">
+                                        <div class="linkIcon col-auto px-1">
+                                            <img src="./images/icon-marker.svg" />
+                                        </div>
+                                        <div class="f-11px col-auto px-1">
+                                            牡蠣小屋 りょうちゃん <br />
+                                            <small>
+                                                Google maps
+                                                <img src="./images/icon-external.svg" />
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <div class="row mt-lg-3 align-items-center linkRight">
+                                        <div class="linkIcon col-auto px-1">
+                                            <img src="./images/icon-suitcase.svg" />
+                                        </div>
+                                        <div class="f-11px col-auto px-1">
+                                            [観光]ほかる赤穂 <br />
+                                            <small>
+                                                Website
+                                                <img src="./images/icon-external.svg" />
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
     </div>
 </header>
 
