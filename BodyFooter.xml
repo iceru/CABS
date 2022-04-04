@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-8 col-sm-auto">
                 <div class="footerLogo">
-                    <img src='./images/logo.svg' class="logo" alt="AKO MAG." />
+                    <img src='../branding/ako_mag/images/logo.svg' class="logo" alt="AKO MAG." />
                     <div class="mt-4 f-11px">イイかんじな赤穂､ハッシーン!</div>
                     <div class="mt-4 text-end f-11px">__ 赤穂マガジン</div>
                 </div>
@@ -14,10 +14,10 @@
                     <div class="d-flex justify-content-center align-items-center">
                         <p class="mb-0 me-2 share-text">SHARE</p>
                         <a href="#" class="socialIcon">
-                            <img src="./images/icon-twitter.svg" alt="Twitter" />
+                            <img src="../branding/ako_mag/images/icon-twitter.svg" alt="Twitter" />
                         </a>
                         <a href="#" class="socialIcon">
-                            <img src="./images/icon-facebook.svg" alt="Facebook" />
+                            <img src="../branding/ako_mag/images/icon-facebook.svg" alt="Facebook" />
                         </a>
                     </div>
                 </div>
@@ -29,12 +29,12 @@
                             <span>あこう魅力発信基地が運営🙆‍♂️🙆‍♀️</span>
                             <p>
                                 わたしたち.
-                                <img src="./images/icon-angle-right.svg" alt="" />
+                                <img src="../branding/ako_mag/images/icon-angle-right.svg" alt="" />
                             </p>
                         </div>
                     </a>
                     <picture class="footerImage">
-                        <img src='./images/footer-image.webp' alt="footer" />
+                        <img src='../branding/ako_mag/images/footer-image.webp' alt="footer" />
                     </picture>
                 </div>
             </div>
@@ -44,8 +44,8 @@
 </footer>
 
 <!-- <script type="text/javascript" src='../branding/NaratabiA/default/js/jquery-1.11.1.min.js'></script> -->
-<script src='../branding/NaratabiA/default/js/bootstrap.min.js'></script>
-<script src='../branding/NaratabiA/default/js/main.js'></script>
-<script type='text/javascript' src='../branding/NaratabiA/js/custom.js'></script>
+<!-- <script src='../branding/NaratabiA/default/js/bootstrap.min.js'></script> -->
+<!-- <script src='../branding/ako_mag/default/js/main.js'></script> -->
+<script type='text/javascript' src='../branding/ako_mag/js/custom.js'></script>
 
 </BodyFooterSection>

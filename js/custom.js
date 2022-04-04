@@ -267,26 +267,26 @@ const languages = [
     }, 1000);
   }
 
-  function showTabsBasedOnDistributor() {
-    const tabs = document.querySelector(".search-control.page-search > .tabs");
+  // function showTabsBasedOnDistributor() {
+  //   const tabs = document.querySelector(".search-control.page-search > .tabs");
 
-    if (!tabs) return;
+  //   if (!tabs) return;
 
-    if (
-      getParameterByName("exl_dn") &&
-      getParameterByName("exl_dn").toLowerCase() === "naratabia"
-    ) {
-      //Tab Epicurean
-      tabs.children.item(2).style.display = "none";
-    } else {
-      //Tab Accommodation
-      tabs.children.item(0).style.display = "none";
-      //Tab Activity
-      tabs.children.item(1).style.display = "none";
-      //Tab Shopping
-      tabs.children.item(3).style.display = "none";
-    }
-  }
+  //   if (
+  //     getParameterByName("exl_dn") &&
+  //     getParameterByName("exl_dn").toLowerCase() === "naratabia"
+  //   ) {
+  //     //Tab Epicurean
+  //     tabs.children.item(2).style.display = "none";
+  //   } else {
+  //     //Tab Accommodation
+  //     tabs.children.item(0).style.display = "none";
+  //     //Tab Activity
+  //     tabs.children.item(1).style.display = "none";
+  //     //Tab Shopping
+  //     tabs.children.item(3).style.display = "none";
+  //   }
+  // }
 
   function getParameterByName(name = "", url = "") {
     if (!url) url = window.location.href;
@@ -362,53 +362,53 @@ const languages = [
     });
   }
 
-  function setShoppingAsDefault() {
-    const exlGrp = getParameterByName("exl_grp");
-    let urlHasExlGrp = exlGrp !== null && exlGrp.trim() !== "";
+  // function setShoppingAsDefault() {
+  //   const exlGrp = getParameterByName("exl_grp");
+  //   let urlHasExlGrp = exlGrp !== null && exlGrp.trim() !== "";
 
-    const url = document.location.href;
-    // remove all exl_grp in url
-    let urlWithoutExlGrp = url.replace(
-      /&?exl_grp=\w{3,4}&?|&?exl_grp=\W&?/gi,
-      ""
-    );
+  //   const url = document.location.href;
+  //   // remove all exl_grp in url
+  //   let urlWithoutExlGrp = url.replace(
+  //     /&?exl_grp=\w{3,4}&?|&?exl_grp=\W&?/gi,
+  //     ""
+  //   );
 
-    const isCABSearchPage =
-      document.location.pathname.toLowerCase() === "/v4/pages/search.aspx";
+  //   const isCABSearchPage =
+  //     document.location.pathname.toLowerCase() === "/v4/pages/search.aspx";
 
-    if (isCABSearchPage && !urlHasExlGrp && !isLandingPage()) {
-      // reload the browser and attach new exl_grp
-      // it will open shopping tab by default
-      console.log("reload page");
-      document.location.href = urlWithoutExlGrp + "&exl_grp=shp";
-    }
-  }
+  //   if (isCABSearchPage && !urlHasExlGrp && !isLandingPage()) {
+  //     // reload the browser and attach new exl_grp
+  //     // it will open shopping tab by default
+  //     console.log("reload page");
+  //     document.location.href = urlWithoutExlGrp + "&exl_grp=shp";
+  //   }
+  // }
 
-  function setUpCampaignImage() {
-    if (getParameterByName("exl_acp")) {
-      const campaignImageUrl = $(".campaign-banner.ad-campaign > img").attr(
-        "src"
-      );
+  // function setUpCampaignImage() {
+  //   if (getParameterByName("exl_acp")) {
+  //     const campaignImageUrl = $(".campaign-banner.ad-campaign > img").attr(
+  //       "src"
+  //     );
 
-      //hide campaign Image
-      $(".campaign-banner.ad-campaign").hide();
+  //     //hide campaign Image
+  //     $(".campaign-banner.ad-campaign").hide();
 
-      const containerTop = $(".container_top");
+  //     const containerTop = $(".container_top");
 
-      // place a new campaign image right below the header.
-      containerTop.append(`
-            <div style='margin-top: 80px;height: 400px'>
-                <img 
-                    height='100%' 
-                    width='100%' 
-                    style='object-fit: cover;object-position:center;height: 100%' 
-                    src='${campaignImageUrl}'/>
-            </div>
-        `);
+  //     // place a new campaign image right below the header.
+  //     containerTop.append(`
+  //           <div style='margin-top: 80px;height: 400px'>
+  //               <img
+  //                   height='100%'
+  //                   width='100%'
+  //                   style='object-fit: cover;object-position:center;height: 100%'
+  //                   src='${campaignImageUrl}'/>
+  //           </div>
+  //       `);
 
-      containerTop.css("margin-bottom", "0px");
-    }
-  }
+  //     containerTop.css("margin-bottom", "0px");
+  //   }
+  // }
 
   function isLandingPage() {
     return document.location.host === "book.ako-mag.jp";

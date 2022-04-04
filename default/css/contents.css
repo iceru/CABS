@@ -4,7 +4,7 @@
 
 @import url("header.css");
 @import url("footer.css");
-@import url("banner.css");
+/* @import url("banner.css"); */
 @import url("bootstrap-grid.css");
 
 /*------------------------ナビゲーション------------------------*/
@@ -15,12 +15,12 @@
 /*------------------------ページ構成------------------------*/
 
 @import url("base.css");
-@import url("main.css");
-@import url("font-size.css");
+/* @import url("main.css");
+@import url("font-size.css"); */
 
 /*------------------------要素------------------------*/
 
-@import url("mdstext.css");
+/* @import url("mdstext.css"); */
 
 /*------------------------レスポンシブ------------------------*/
 

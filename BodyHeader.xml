@@ -8,7 +8,7 @@
                 <div class="navLeft col-9 col-sm-5 col-md-auto">
                     <div class="leftTop">
                         <div class="position-sticky">
-                            <img src='./images/logo.svg' class="logo" alt="AKO MAG." />
+                            <img src='../branding/ako_mag/images/logo.svg' class="logo" alt="AKO MAG." />
                             <div class="row items g-0 mt-2 mt-md-3 ">
                                 <div class="col itemLink">
                                     <a href="#">いこう.</a>
@@ -48,8 +48,8 @@
                                     </p>
                                 </div>
                                 <picture class="image">
-                                    <source srcset='./images/nav-image-lg.webp' media="(min-width: 897px)" />
-                                    <img class="w-100 h-100 of-cover" src='./images/nav-image.webp' alt="牡蠣小屋と温泉" />
+                                    <source srcset='../branding/ako_mag/images/nav-image-lg.webp' media="(min-width: 897px)" />
+                                    <img class="w-100 h-100 of-cover" src='../branding/ako_mag/images/nav-image.webp' alt="牡蠣小屋と温泉" />
                                 </picture>
                             </div>
                         </dic>
@@ -57,7 +57,7 @@
                             <div class="row">
                                 <div class="col-5 col-sm-12">
                                     <picture class="image2">
-                                        <img class="of-cover" src='./images/nav-image-2.webp' alt="牡蠣小屋と温泉" />
+                                        <img class="of-cover" src='../branding/ako_mag/images/nav-image-2.webp' alt="牡蠣小屋と温泉" />
                                     </picture>
                                 </div>
                                 <div class="col-7 col-sm-12 textDesc d-flex flex-column">
@@ -80,13 +80,13 @@
                                 <div class="col-6 col-md-12">
                                     <div class="row align-items-center flex-nowrap">
                                         <div class="linkIcon col-auto px-1">
-                                            <img src="./images/icon-marker.svg" />
+                                            <img src="../branding/ako_mag/images/icon-marker.svg" />
                                         </div>
                                         <div class="f-11px col-auto px-1">
                                             牡蠣小屋 りょうちゃん <br />
                                             <small>
                                                 Google maps
-                                                <img src="./images/icon-external.svg" />
+                                                <img src="../branding/ako_mag/images/icon-external.svg" />
                                             </small>
                                         </div>
                                     </div>
@@ -94,13 +94,13 @@
                                 <div class="col-6 col-md-12">
                                     <div class="row mt-lg-3 align-items-center linkRight">
                                         <div class="linkIcon col-auto px-1">
-                                            <img src="./images/icon-suitcase.svg" />
+                                            <img src="../branding/ako_mag/images/icon-suitcase.svg" />
                                         </div>
                                         <div class="f-11px col-auto px-1">
                                             [観光]ほかる赤穂 <br />
                                             <small>
                                                 Website
-                                                <img src="./images/icon-external.svg" />
+                                                <img src="../branding/ako_mag/images/icon-external.svg" />
                                             </small>
                                         </div>
                                     </div>
