@@ -176,5 +176,9 @@
   margin-top: 0.5rem;
 }
 .navigation .container > .row .navRight .linkIcon {
-  font-size: 20px;
+  width: 30px;
+}
+
+.icon-link {
+  width: 11px;
 }

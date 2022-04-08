@@ -27,14 +27,14 @@
                     <a href="#">
                         <div class="position-absolute topRight">
                             <span>あこう魅力発信基地が運営🙆‍♂️🙆‍♀️</span>
-                            <p>
+                            <p class="d-flex align-items-center justify-content-center mt-1">
                                 わたしたち.
-                                <img src="../branding/ako_mag/images/icon-angle-right.svg" alt="" />
+                                <img class="icon-angle-right" src="../branding/ako_mag/images/icon-angle-right.svg" alt="" />
                             </p>
                         </div>
                     </a>
                     <picture class="footerImage">
-                        <img src='../branding/ako_mag/images/footer-image.webp' alt="footer" />
+                        <img src='../branding/ako_mag/images/footer-image.jpg' alt="footer" />
                     </picture>
                 </div>
             </div>

@@ -16,10 +16,11 @@
 }
 .footer > .row .socialIcon {
   margin: 0 1rem;
-  font-size: 24px;
   color: rgba(0, 0, 0, 0.7);
   transition: all 0.2s ease;
   width: 24px;
+  height: 24px;
+  margin-right: .5rem;
 }
 .share-text {
   margin-right: 1rem;
@@ -65,7 +66,7 @@
 @media screen and (min-width: 1200px) {
   .footer > .row .topRight {
     padding: 30px;
-    width: 195px;
+    width: 152px;
   }
   .footer > .row .topRight div,
   .footer > .row .topRight p {
@@ -76,6 +77,10 @@
 .footer > .row .topRight p {
   z-index: 3;
   position: relative;
+  font-weight: bolder;
+}
+.footer > .row .topRight span {
+  font-size: 16px;
 }
 .footer > .row .topRight:hover,
 .footer > .row .topRight:focus {
@@ -128,4 +133,8 @@
 }
 .text-end {
   text-align: end;
+}
+
+.icon-angle-right {
+  width: 11px;
 }

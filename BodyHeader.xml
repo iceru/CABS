@@ -48,16 +48,16 @@
                                     </p>
                                 </div>
                                 <picture class="image">
-                                    <source srcset='../branding/ako_mag/images/nav-image-lg.webp' media="(min-width: 897px)" />
-                                    <img class="w-100 h-100 of-cover" src='../branding/ako_mag/images/nav-image.webp' alt="牡蠣小屋と温泉" />
+                                    <source srcset='../branding/ako_mag/images/nav-image-lg.jpg' media="(min-width: 897px)" />
+                                    <img class="w-100 h-100 of-cover" src='../branding/ako_mag/images/nav-image.jpg' alt="牡蠣小屋と温泉" />
                                 </picture>
                             </div>
                         </dic>
                         <div class="col mt-3 mt-md-0 rightLinks">
-                            <div class="row">
+                            <div class="row mb-4">
                                 <div class="col-5 col-sm-12">
                                     <picture class="image2">
-                                        <img class="of-cover" src='../branding/ako_mag/images/nav-image-2.webp' alt="牡蠣小屋と温泉" />
+                                        <img class="of-cover" src='../branding/ako_mag/images/nav-image-2.png' alt="牡蠣小屋と温泉" />
                                     </picture>
                                 </div>
                                 <div class="col-7 col-sm-12 textDesc d-flex flex-column">
@@ -70,12 +70,12 @@
                                     <div class="d-inline-block mt-2 mt-md-4">
                                         ｢贅沢な心地よ...｣
                                     </div>
-                                    <div class="text-end d-inline-block mt-2 mt-md-4">
+                                    <div class="text-end d-inline-block mt-2 mt-md-4 mb-3">
                                         ｢うむ...良きかな赤穂｣
                                     </div>
                                 </div>
+                                <hr class="dashed" />
                             </div>
-                            <hr class="dashed" />
                             <div class="row justify-content-between">
                                 <div class="col-6 col-md-12">
                                     <div class="row align-items-center flex-nowrap">
@@ -86,7 +86,7 @@
                                             牡蠣小屋 りょうちゃん <br />
                                             <small>
                                                 Google maps
-                                                <img src="../branding/ako_mag/images/icon-external.svg" />
+                                                <img class="icon-link" src="../branding/ako_mag/images/icon-external.svg" />
                                             </small>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@
                                             [観光]ほかる赤穂 <br />
                                             <small>
                                                 Website
-                                                <img src="../branding/ako_mag/images/icon-external.svg" />
+                                                <img class="icon-link" src="../branding/ako_mag/images/icon-external.svg" />
                                             </small>
                                         </div>
                                     </div>
