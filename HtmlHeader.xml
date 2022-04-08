@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <HtmlHeaderSection xmlns:v3re="http://www.v3leisure.com/schemas/cabs/rendering">
 
-<title>Booking Page | Nara</title>
+<title>Official Nara Travel Guide</title>
 
 <meta charset='utf-8'/>
 
-<link rel="stylesheet" href='../branding/NaratabiA/default/css/contents.css'/>
-<link rel="stylesheet" href='../branding/NaratabiA/default/css/all.css'/>
+<link rel="stylesheet" href='../branding/visitnara/default/css/contents.css'/>
+<link rel="stylesheet" href='../branding/visitnara/default/css/all.css'/>
 
-<link rel='icon' type='image/png' href='../branding/NaratabiA/favicon.ico'/>
-<link rel='stylesheet' href='../branding/NaratabiA/fonts/style.css'/>
+<link rel='icon' type='image/png' href='../branding/visitnara/favicon.ico'/>
+<link rel='stylesheet' href='../branding/visitnara/fonts/style.css'/>
 
 
-<link rel="stylesheet" type="text/css" href="../branding/NaratabiA/styles/overrides.css"/>
+<link rel="stylesheet" type="text/css" href="https://visitnara.reforsindo.com/CABS/styles/overrides.css"/>
   
 <v3re:Render Page="All">
  <![CDATA[

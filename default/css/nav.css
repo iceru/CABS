@@ -25,6 +25,11 @@
   }
   .header_large .container {
     height: 50px;
+    width: 100%;
+  }
+
+  .header .container {
+    width: 100%;
   }
 }
 
@@ -43,7 +48,7 @@
 }
 @media screen and (max-width: 738px) {
   .header_logo {
-    top: 5px;
+    top: -3px;
     left: 50%;
     margin-left: -35px;
   }
@@ -55,7 +60,7 @@
   width: 100px;
   height: 0;
   padding-top: 62px;
-  background: url("../img/logo.svg") 50% 50% no-repeat;
+  background: url("../branding/visitnara/images/logo.svg") 50% 50% no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
   overflow: hidden;
@@ -98,7 +103,7 @@
   display: block;
   width: 22px;
   height: 50px;
-  background: url("../img/search.svg") 0 50% no-repeat;
+  background: url("../branding/visitnara/images/search.svg") 0 50% no-repeat;
   -webkit-background-size: 18px auto;
   background-size: 18px auto;
 }
@@ -162,7 +167,7 @@
   width: 50px;
   height: 0;
   padding-top: 50px;
-  background: url("../img/icon-close.png") 50% 50% no-repeat;
+  background: url("../branding/visitnara/images/icon-close.png") 50% 50% no-repeat;
   -webkit-background-size: 20px 20px;
   background-size: 20px 20px;
   overflow: hidden;
@@ -256,7 +261,7 @@
   width: 56px;
   height: 0;
   padding-top: 40px;
-  background: url("../img/logo.svg") 50% 50% no-repeat;
+  background: url("../branding/visitnara/images/logo.svg") 50% 50% no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
   overflow: hidden;
@@ -277,7 +282,7 @@
   display: block;
   height: 0;
   padding-top: 40px;
-  background: url("../img/search.svg") 50% 50% no-repeat;
+  background: url("../branding/visitnara/images/search.svg") 50% 50% no-repeat;
   -webkit-background-size: 18px auto;
   background-size: 18px auto;
   overflow: hidden;
@@ -294,7 +299,7 @@
   width: 40px;
   height: 0;
   padding-top: 40px;
-  background: url("../img/icon-menu.svg") 50% 50% no-repeat;
+  background: url("../branding/visitnara/images/icon-menu.svg") 50% 50% no-repeat;
   -webkit-background-size: 25px 20px;
   background-size: 25px 20px;
   overflow: hidden;
@@ -356,12 +361,15 @@
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
+  transition: all .2s ease;
+
 }
 .header_large.skin_search .gnav {
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);
   -o-transform: translateY(-200px);
   transform: translateY(-200px);
+  transition: all .2s ease;
 }
 /*
 .header_large.skin_search .gnav_sublists {
@@ -743,11 +751,11 @@
 }
 .search .bx-wrapper .bx-prev {
   left: -15px;
-  background-image: url("../img/common/slide_arrow_left_black.304f2e52fc5b.svg");
+  background-image: url("../branding/visitnara/images/common/slide_arrow_left_black.304f2e52fc5b.svg");
 }
 .search .bx-wrapper .bx-next {
   right: -15px;
-  background-image: url("../img/common/slide_arrow_right_black.2d021661cd30.svg");
+  background-image: url("../branding/visitnara/images/common/slide_arrow_right_black.2d021661cd30.svg");
 }
 .search .bx-wrapper .bx-prev,
 .search .bx-wrapper .bx-next {
@@ -761,10 +769,10 @@
   background-color: rgba(77, 133, 180, 0.9);
 }
 .search .bx-wrapper .bx-prev:hover {
-  background-image: url("../img/common/slide_arrow_left.c23e6130ac09.svg");
+  background-image: url("../branding/visitnara/images/common/slide_arrow_left.c23e6130ac09.svg");
 }
 .search .bx-wrapper .bx-next:hover {
-  background-image: url("../img/common/slide_arrow_right.d02d0e443a6c.svg");
+  background-image: url("../branding/visitnara/images/common/slide_arrow_right.d02d0e443a6c.svg");
 }
 @media screen and (max-width: 738px) {
   .search .bx-wrapper .bx-pager {
@@ -777,11 +785,11 @@
   /* DIRECTION CONTROLS (NEXT / PREV) */
   .search .bx-wrapper .bx-prev {
     left: -10px;
-    background-image: url("../img/common/slide_arrow_left_black.304f2e52fc5b.svg");
+    background-image: url("../branding/visitnara/images/common/slide_arrow_left_black.304f2e52fc5b.svg");
   }
   .search .bx-wrapper .bx-next {
     right: -10px;
-    background-image: url("../img/common/slide_arrow_right_black.2d021661cd30.svg");
+    background-image: url("../branding/visitnara/images/common/slide_arrow_right_black.2d021661cd30.svg");
   }
 }
 

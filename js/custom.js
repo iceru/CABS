@@ -254,11 +254,11 @@ const languages = [
   //3. Override all back button
   overrideBackButton();
 
-  //4. set shopping as default tab
-  setShoppingAsDefault();
+  // //4. set shopping as default tab
+  // setShoppingAsDefault();
 
-  //5. set up campaign image if exl_acp is included in the url
-  setUpCampaignImage();
+  // //5. set up campaign image if exl_acp is included in the url
+  // setUpCampaignImage();
 
   function overrideGoogleSearch() {
     const googleForms = document.querySelectorAll(
@@ -281,9 +281,9 @@ const languages = [
     document.body.id = getCurrentSeason();
     document.title = "Official Nara Travel Guide";
 
-    setTimeout(() => {
-      showTabsBasedOnDistributor();
-    }, 1000);
+    // setTimeout(() => {
+    //   showTabsBasedOnDistributor();
+    // }, 1000);
   }
 
   function showTabsBasedOnDistributor() {
@@ -466,6 +466,7 @@ const languages = [
   });
 
   $(document).ready(function () {
+    windowsize = $(window).width();
     $(".js_headersearch_trigger").click(function () {
       $(".header_large").addClass("skin_search");
       $(".header_searchbox_input").attr("placeholder", "");
@@ -480,6 +481,22 @@ const languages = [
       );
     });
 
+    if (windowsize < 768) {
+      $(".header_searchbox_input").attr(
+        "placeholder",
+        ""
+      );
+    }
+
+    $(window).resize(function() {
+      if (windowsize < 768) {
+        $(".header_searchbox_input").attr(
+          "placeholder",
+          ""
+        );
+      }
+    });
+
     $(".js_headermenu_trigger").click(function (e) {
       e.preventDefault();
       e.stopPropagation();
@@ -488,7 +505,6 @@ const languages = [
     });
 
     $("body,html").click(function (e) {
-      var container = $(".header_menu_small");
       var gnav = $(".gnav.trans_trf");
 
       if (!gnav.is(e.target) && gnav.has(e.target).length === 0) {

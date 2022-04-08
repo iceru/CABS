@@ -2,80 +2,212 @@
 <BodyFooterSection xmlns:v3re="http://www.v3leisure.com/schemas/cabs/rendering">
 
 <footer>
-    <div>
-        <div class="wrapper clearfix" id="directorynav">
-            <div class="menulist">
-                <h3 class="mds_link"><a class="LT-14" href="http://yamatoji.nara-kankou.or.jp/welcome/">ようこそ奈良へ</a></h3>
-                <h3 class="mds_link"><a class="LT-13" href="http://yamatoji.nara-kankou.or.jp/access/">奈良へのアクセス</a></h3>
-                <h3 class="mds_link"><a class="LT-16" href="http://yamatoji.nara-kankou.or.jp/015guidebook_indivudual/">観光ガイドブック</a></h3>
-                <h3 class="mds_link"><a class="LT-34" href="http://yamatoji.nara-kankou.or.jp/024guidebook_business/?keyword=ml1n84yfrj">修学旅行ガイドブック</a></h3>
-                <h3 class="mds_link"><a class="LT-17" href="http://yamatoji.nara-kankou.or.jp/app/">奈良県観光公式アプリ</a></h3>
-                <h3 class="mds_link"><a class="LT-18" href="http://fanclub.nara-kankou.or.jp/pages/yamatoji-cal/" target="_blank">奈良大和路カレンダー</a></h3>
+    <footer class="footer">
+        <div class="container">
+            <nav class="breadcrumbs">
+                <ul class="breadcrumbs_lists" style="width: 54px;"><li class="item_list">Home</li></ul>
+            </nav>
+            <div class="footer_menu clearfix">
+                <nav class="fnav">
+                    <dl class="fnav_column">
+                        <dt class="fnav_head">Discover</dt>
+                        <dd class="fnav_body">
+                            <ul class="fnav_lists">
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/destinations/" id="footer_destination">
+                                        Destinations
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/world-heritage/" id="footer_world_heritage">
+                                        World Heritage
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/seasons/" id="footer_seasons">
+                                        Seasons
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/history/" id="footer_history">
+                                        History
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/buddhist-statues/" id="footer_buddhist_statues">
+                                        Buddhist Statues
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/travel-directory/" id="footer_travel_directory">
+                                        Travel Directory
+                                    </a>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="fnav_column">
+                        <dt class="fnav_head">Things to Do</dt>
+                        <dd class="fnav_body">
+                            <ul class="fnav_lists">
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/see-and-do/" id="footer_see_and_do">
+                                        See &amp; Do
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/eat-and-drink/" id="footer_eat_and_drink">
+                                        Eat &amp; Drink
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/shopping/" id="footer_shopping">
+                                        Shopping
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/event-calendar/" id="footer_vent_calendar">
+                                        Event Calendar
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/lists-and-stories/" id="footer_lists_and_stories">
+                                        Lists &amp; Stories
+                                    </a>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="fnav_column">
+                        <dt class="fnav_head">Plan Your Trip</dt>
+                        <dd class="fnav_body">
+                            <ul class="fnav_lists">
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/for-first-time-visitor/" id="footer_for_first_time_visitor">
+                                        For First-Time Visitors
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/travel-to-nara/" id="footer_travel_to_nara">
+                                        Travel to Nara
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/getting-around-nara/" id="footer_getting_around_nara">
+                                        Getting Around Nara
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/accommodation/" id="footer_accommodation">
+                                        Accommodation
+                                    </a>
+                                </li>
+                                <li class="item_list">
+                                    <a href="https://visitnara.jp/travel-tips/" id="footer_travel_tips">
+                                        Travel Tips
+                                    </a>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </nav>
+                <div class="footer_other">
+                    <div class="footer_sns">
+                        <ul class="item_lists">
+                            <li class="item_list item_fb">
+                                <a href="https://www.facebook.com/visitnarajp/" rel="noreferrer" target="_blank">
+                                    <img alt="Facebook" class="hover_opacity" src="../branding/visitnara/images/icon-fb.svg" />
+                                </a>
+                            </li>
+                            <li class="item_list item_pint">
+                                <a href="https://www.instagram.com/visitnarajp/" target="_blank" rel="noreferrer">
+                                    <img alt="Instagram" class="hover_opacity" src="../branding/visitnara/images/icon-ig.svg" />
+                                </a>
+                            </li>
+                            <li class="item_list item_yotube">
+                                <a href="https://www.youtube.com/channel/UCDU0JXUg9sSQr7AOaFubILQ" rel="noreferrer"
+                                    target="_blank">
+                                    <img alt="youtube" class="hover_opacity" src="../branding/visitnara/images/icon-youtube.svg" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <dl class="footer_modal_send">
+                        <dt class="footer_signup_head">Can you also tell us...</dt>
+                        <dd class="footer_signup_body">
+                            <select class="item_select" id="signup-answer1" name="gendar">
+                                <option value="">Your primary language</option>
+                                <option value="Chinese">Chinese</option>
+                                <option value="Korean">Korean</option>
+                                <option value="Thai">Thai</option>
+                                <option value="Indonesian">Indonesian</option>
+                                <option value="German">German</option>
+                                <option value="French">French</option>
+                                <option value="Spanish">Spanish</option>
+                                <option value="Other language">Other language</option>
+                            </select>
+                            <select class="item_select" id="signup-answer2" name="age">
+                                <option value="">Your age</option>
+                                <option value="under 19">under 19</option>
+                                <option value="20 to 34">20 to 34</option>
+                                <option value="35 to 49">35 to 49</option>
+                                <option value="over 50">over 50</option>
+                            </select>
+                            <span class="item_submit js_send" id="signup-send">
+                                Send
+                            </span>
+                        </dd>
+                    </dl>
+                    <div class="footer_modal_complete">
+                        <div class="item_table">
+                            <div class="item_cell">
+                                Thank you!
+                                <br />
+                                We will send you seasonal updates.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="menulist">
-                <h3 class="mds_link"><a class="LT-6" href="http://yamatoji.nara-kankou.or.jp/001shaji/">神社・仏閣</a></h3>
-                <h3 class="mds_link"><a class="LT-7" href="http://yamatoji.nara-kankou.or.jp/002kanko/">観光</a></h3>
-                <h3 class="mds_link"><a class="LT-8" href="http://yamatoji.nara-kankou.or.jp/003events/">イベント</a></h3>
-                <h3 class="mds_link"><a class="LT-9" href="http://yamatoji.nara-kankou.or.jp/023flower_spot/">花</a></h3>
-                <h3 class="mds_link"><a class="LT-10" href="http://yamatoji.nara-kankou.or.jp/006course/">モデルコース</a></h3>
-                <h3 class="mds_link"><a class="LT-11" href="http://yamatoji.nara-kankou.or.jp/004shop/">グルメ・お土産</a></h3>
-                <h3 class="mds_link"><a class="LT-12" href="http://yamatoji.nara-kankou.or.jp/005onsen-yado/">温泉・宿泊</a></h3>
-            </div>
-            <div class="menulist">
-                <h3 class="mds_link"><a class="LT-19" href="http://yamatoji.nara-kankou.or.jp/topics/">お知らせ</a></h3>
-                <h3 class="mds_link"><a class="LT-1" href="http://yamatoji.nara-kankou.or.jp/business/">法人の方へ</a></h3>
-                <ul class="direct_link">
-                    <li><a class="LT-20" href="http://yamatoji.nara-kankou.or.jp/018img_delivery_user/">ストックフォトライブラリー</a></li>
-                    <li><a class="LT-21" href="http://yamatoji.nara-kankou.or.jp/019film_c-nara/">フィルムコミッション</a></li>
-                    <li><a class="LT-22" href="http://yamatoji.nara-kankou.or.jp/020movie/">奈良にゆかりの映画情報</a></li>
-                </ul>
-            </div>
-            <div class="menulist">
-                <h3 class="mds_link"><a class="LT-23" href="javascript:void(0);" style="cursor: default;">おすすめリンク</a></h3>
-                <ul class="direct_link">
-                    <li><a class="LT-24" href="http://yamatoji.nara-kankou.or.jp/008world/">奈良大和路の世界遺産</a></li>
-                    <li><a class="LT-25" href="http://yamatoji.nara-kankou.or.jp/season/">四季のおすすめスポット</a></li>
-                    <li><a class="LT-26" href="http://yamatoji.nara-kankou.or.jp/014toiawase/">観光についてのお問合わせ先</a></li>
-                    <li><a class="LT-27" href="http://yamatoji.nara-kankou.or.jp/013kouyo/">奈良大和路からの紅葉だより</a></li>
-                    <li><a class="LT-28" href="http://yamatoji.nara-kankou.or.jp/012sakura/">奈良大和路からの桜だより</a></li>
-                    <li><a class="LT-29" href="http://yamatoji.nara-kankou.or.jp/011wedding/">あをによし奈良　和婚</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="wrapper">
-            <aside id="bnr">
-                <ul class="clearfix">
-                    <li>
-                        <a href="http://fanclub.nara-kankou.or.jp/" target="_blank">
-                            <img src="http://yamatoji.nara-kankou.or.jp/img/bnr/bnr_FC_2021.jpg" alt="奈良ファン倶楽部"/>
+            <div class="footer_address">
+                <ul class="footer_links">
+                    <li class="item_link">
+                        <a href="https://visitnara.jp/about-this-site/" id="footer_about_this_site">
+                            About This Site
                         </a>
                     </li>
-                    <li>
-                        <a href="http://yamatoji.nara-kankou.or.jp/app/">
-                            <img src="http://yamatoji.nara-kankou.or.jp/img/bnr/bnr_app.jpg" alt="奈良県観光公式アプリ" style="opacity: 1;"/>
+                    <li class="item_link">
+                        <a href="https://visitnara.jp/terms-of-use/" id="footer_terms_of_use">
+                            Terms of Use
+                        </a>
+                    </li>
+                    <li class="item_link">
+                        <a href="https://visitnara.jp/privacy-policy/" id="footer_privacy_policy">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li class="item_link">
+                        <a href="https://visitnara.jp/cookie-policy/" id="footer_privacy_policy">
+                            Cookie Policy
+                        </a>
+                    </li>
+                    <li class="item_link">
+                        <a href="https://visitnara.jp/contact-us/" id="footer_contact_us">
+                            Contact Us
                         </a>
                     </li>
                 </ul>
-            </aside>
+                <div class="item_copy">
+                    <address>© Nara Prefecture All Rights Reserved.</address>
+                </div>
+            </div>
         </div>
-        <ul class="linklist">
-            <li><a class="LT-30" href="http://yamatoji.nara-kankou.or.jp/sitemap.html">サイトマップ</a></li>
-            <li><a class="LT-31" href="http://yamatoji.nara-kankou.or.jp/privacy.html">サイトポリシー</a></li>
-            <li><a class="LT-32" href="http://yamatoji.nara-kankou.or.jp/link_banner.html">リンクについて</a></li>
-            <li><a class="LT-33" href="http://www.nara-kankou.or.jp/" target="_blank">一般財団法人 奈良県ビジターズビューロー</a></li>
-        </ul>
-        <div id="sitelogo_footer">
-            <a href="http://www.nara-kankou.or.jp/" target="_blank">
-                <img src="http://yamatoji.nara-kankou.or.jp/img/common/sitelogo.png" alt="一般財団法人 奈良県ビジターズビューロー"/>
-            </a>
-            <p>(C) Nara visitors Bureau, All Rights Reserved.</p>
-        </div>
-    </div>
+    </footer>
 </footer>
 
 <!-- <script type="text/javascript" src='../branding/NaratabiA/default/js/jquery-1.11.1.min.js'></script> -->
-<script src='../branding/NaratabiA/default/js/bootstrap.min.js'></script>
-<script src='../branding/NaratabiA/default/js/main.js'></script>
-<script type='text/javascript' src='../branding/NaratabiA/js/custom.js'></script>
+<!-- <script src='../branding/NaratabiA/default/js/bootstrap.min.js'></script>
+<script src='../branding/NaratabiA/default/js/main.js'></script> -->
+<script type='text/javascript' src='../branding/visitnara/js/custom.js'></script>
 
 </BodyFooterSection>

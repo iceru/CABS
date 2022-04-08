@@ -93,7 +93,7 @@ body {
   line-height: 1.5;
   color: #333;
   font-size: 16px;
-  font-family: "Myriad Pro SemiCondensed", serif;
+  font-family: "Myriad Pro SemiCondensed", sans-serif;
   font-weight: 300;
   -webkit-text-size-adjust: 100%;
 }
